@@ -1,0 +1,22 @@
+body{
+
+    background-color: rgb(20,20,40);
+
+}
+
+
+.navBar {
+    width: 100%;
+    float: right;
+}
+
+.navLink {
+    display: inline;
+    float: right;
+    font-family: verdana;
+    font-weight: 900;
+    font-size: clamp(16px , (1vw + 10px), 24px);
+    color: rgb(231, 178, 63);
+    padding-left: 2%;
+    padding-right: 2%;
+}
