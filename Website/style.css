@@ -1,22 +1,28 @@
 body{
-
-    background-color: rgb(20,20,40);
-
+    background-size: 100vw;
 }
 
-.navLink {
-    height: 10%;
+.navBar {
+    width: 100vw;
+    height: clamp(40px, 5vw, 10000px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-position: center top;
+    background-size: 100vw 5vw;
 }
 
 .navLogo {
-    width: 4vw;
+    width: clamp(50px, 6.25%, 100000px);
     float: left;
     position: relative;
-    top: -0.5vw;
+    top: 2%;
 }
 
 .linkBar {
-    width: 50%;
+    position: relative;
+    top: 1.65vw;
+    width: 70%;
     float: right;
 }
 
@@ -25,9 +31,22 @@ body{
     float: right;
     font-family: verdana;
     font-weight: 900;
-    font-size: clamp(16px , (1vw + 10px), 24px);
+    font-size: clamp(16px, 1.5vw, 1000px);
     color: rgb(231, 178, 63);
     padding-left: 4%;
     padding-right: 4%;
     text-decoration: none;
+}
+
+.content, .aboutUsContent {
+    position: relative;
+    top: 5vw;
+    font-family: verdana;
+    font-weight: 900;
+    font-size: clamp(12px, 1vw, 20px);
+    color: rgb(231, 178, 63);
+}
+
+.aboutUsContent {
+    width: 60vw;
 }
