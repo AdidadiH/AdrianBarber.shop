@@ -4,7 +4,7 @@ body{
 
 .navBar {
     width: 100vw;
-    height: clamp(40px, 5vw, 10000px);
+    height: clamp(80px, 5vw, 100000px);
     position: fixed;
     top: 0;
     left: 0;
@@ -13,7 +13,7 @@ body{
 }
 
 .navLogo {
-    width: clamp(50px, 6.25%, 100000px);
+    width: clamp(100px, 6.25%, 100000px);
     float: left;
     position: relative;
     top: 2%;
@@ -21,8 +21,8 @@ body{
 
 .linkBar {
     position: relative;
-    top: 1.65vw;
-    width: 70%;
+    top: 26%;
+    width: 75%;
     float: right;
 }
 
@@ -31,16 +31,16 @@ body{
     float: right;
     font-family: verdana;
     font-weight: 900;
-    font-size: clamp(16px, 1.5vw, 1000px);
+    font-size: calc(clamp(60px, 3vw, 100px) - 30px );
     color: rgb(231, 178, 63);
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
     text-decoration: none;
 }
 
 .content, .aboutUsContent {
     position: relative;
-    top: 5vw;
+    top: clamp(80px, 5vw, 100000px);
     font-family: verdana;
     font-weight: 900;
     font-size: clamp(12px, 1vw, 20px);
